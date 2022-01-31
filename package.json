@@ -1,10 +1,12 @@
 {
     "name": "@break-stuff/create-fast-element",
-    "version": "4.0.0-alpha.0",
+    "version": "1.0.0",
     "description": "A CLI for creating a FAST Element component library.",
     "main": "index.js",
     "scripts": {
         "build": "tsc",
+        "deploy": "tsc && npm publish",
+        "deploy:beta": "tsc && npm publish --tag beta",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -26,5 +28,9 @@
     "dependencies": {
         "colorette": "^2.0.16",
         "download-git-repo": "^3.0.2"
-    }
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/break-stuff/create-fast-element"
+    },
 }
