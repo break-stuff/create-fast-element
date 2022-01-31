@@ -4,3 +4,14 @@ This is CLI tool for building your own web component library using [FAST Element
 
 ## Getting Started
 
+```bash
+npm init fast-element <your-project-name>
+```
+
+Example:
+
+```bash
+npm init fast-element my-component-library
+```
+
+> ***Note:*** project name must be unique and in _kebab-case_.
