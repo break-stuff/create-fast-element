@@ -1,6 +1,6 @@
 {
     "name": "@breakstuff/create-fast-element",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A CLI for creating a FAST Element component library.",
     "main": "index.js",
     "scripts": {

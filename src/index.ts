@@ -26,6 +26,10 @@ async function createApp(projectName: string) {
 }
 
 function validateProjectName(projectName: string, args: string[]) {
+    if(args.length === 0) {
+        throw new Error(`Please include a project name.`);
+    }
+
     if(args.length > 1) {
         throw new Error(`Project name "${args.join(' ')}" is not valid and must be a kebab-case name without spaces.`);
     }
